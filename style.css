@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+}
+
+.element{
+    padding: 20px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0px 4px 0 rgba(0,0,0,0.3);
+}
+
+#searchInput,
+#sortBtn {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    width: 250px;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 10px;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
